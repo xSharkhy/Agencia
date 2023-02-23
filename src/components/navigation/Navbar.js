@@ -3,8 +3,6 @@ import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { useState, Fragment, useEffect } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import loading_dots from 'assets/img/loading-dots.gif'
-import logo_boomslag from 'assets/img/boomslag-black.png'
 import DotLoader from 'react-spinners/DotLoader'
 
 const solutions = [
